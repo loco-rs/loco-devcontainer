@@ -27,3 +27,6 @@ Be sure to review the various components we have set up for you in [compose.yaml
 
 To see how everything connects with your app, look at the [.env](./.env) environment variables set up.
 
+#### VS Code Users
+
+In `config/development.yaml` under server you will need to change the host and binding from localhost to 127.0.0.1 in your loco app as VS Code Remote does not support IPv6.
